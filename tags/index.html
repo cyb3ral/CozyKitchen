@@ -1,0 +1,94 @@
+<!doctype html><html lang=en-us><head><meta charset=utf-8><meta http-equiv=x-ua-compatible content="IE=edge"><title>Tags</title><meta name=description content="The Cozy Kitchen"><meta name=keywords content><meta name=viewport content="width=device-width,initial-scale=1,shrink-to-fit=no"><link rel=stylesheet href=https://thecozykitchen.net/vendor/bootstrap/bootstrap.min.css><link rel=stylesheet href=https://thecozykitchen.net/vendor/select2/select2.min.css><link rel=stylesheet href=https://thecozykitchen.net/css/featherlight.min.css><link rel=stylesheet href=https://thecozykitchen.net/css/tempusdominus-bootstrap-4.min.css><link rel=stylesheet href=https://thecozykitchen.net/css/brands.css><link rel=stylesheet href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700|Josefin+Sans:300,400,700"><link rel=stylesheet href=https://thecozykitchen.net/css/all.css integrity=sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf crossorigin=anonymous><link rel=stylesheet href=https://thecozykitchen.net/css/style.min.css><script src=https://thecozykitchen.net/js/modernizr.js></script></head><body><div id=side-nav class=sidenav><a href=javascript:void(0) id=side-nav-close>&#215;</a><div class=sidenav-content><p>Kuncen WB1, Wirobrajan 10010, DIY</p><p><span class="fs-16 primary-color">(+68) 120034509</span></p><p>info@yourdomain.com</p></div></div><div id=side-search class=sidenav><a href=javascript:void(0) id=side-search-close>&#215;</a><div class=sidenav-content><form><div class="input-group md-form form-sm form-2 pl-0"><input class="form-control my-0 py-1 red-border" type=text placeholder=Search aria-label=Search><div class=input-group-append><button class="input-group-text red lighten-3" id=basic-text1>
+<i class="fas fa-search text-grey" aria-hidden=true></i></button></div></div></form></div></div><div id=canvas-overlay></div><div class=boxed-page><nav id=navbar-header class="navbar navbar-expand-lg"><div class=container><a class="navbar-brand navbar-brand-center d-flex align-items-center p-0 only-mobile" href=https://thecozykitchen.net/><img src=img/logo.png alt=logo></a>
+<button class=navbar-toggler type=button data-toggle=collapse data-target=#navbarSupportedContent aria-controls=navbarSupportedContent aria-expanded=false aria-label="Toggle navigation">
+<span class="fa fa-bars"></span></button><div class="collapse navbar-collapse justify-content-between" id=navbarSupportedContent><ul class="navbar-nav d-flex justify-content-between"><li class="nav-item only-desktop"><a class=nav-link id=side-nav-open href=#><span class="fa fa-bars"></span></a></li><div class="d-flex flex-lg-row flex-column"><li class="nav-item active"><a class=nav-link href=https://thecozykitchen.net/>Home <span class=sr-only>(current)</span></a></li><li class=nav-item><a class=nav-link href=https://thecozykitchen.net/#gtco-welcome>About</a></li><li class="nav-item active"><a class=nav-link href=https://thecozykitchen.net/#gtco-menu>Menu</a></li><li class=nav-item><a class=nav-link href=https://thecozykitchen.net/#gtco-team>Gallery</a></li></div></ul><a class="navbar-brand navbar-brand-center d-flex align-items-center only-desktop" href=#><img height=80px src=img/logo.png alt></a><ul class="navbar-nav d-flex justify-content-between"><li class=nav-item><a id=side-search-open class=nav-link href=#><span class="lnr lnr-magnifier"></span></a></li></ul></div></div></nav><section class=container><h2 class=text-center>Tags</h2></section><footer class="mastfoot bg-white section-padding pb-0" style=padding-top:25px!important><div class="inner container"><div class=row><div class=col-lg-12><div class="footer-widget pr-lg-5 pr-0"><img src=https://thecozykitchen.net/img/logo.png class="img-fluid footer-logo mb-3" alt><p></p><nav class="nav nav-mastfoot justify-content-start" style=display:table;margin:auto><a class=nav-link href=https://www.facebook.com/thecozykitch><i class="fab fa-facebook-f"></i></a><a class=nav-link href=https://www.instagram.com/cclark_cozykitchen/><i class="fab fa-instagram"></i></a></nav></div></div></div></div><script type=text/template id=events-template>
+			{{#events}}
+			  <div class="border-bottom pb-3">
+							  <div class="row">
+								<div class="col-sm-4 border-right-lg border-right-md-0">
+								  <div class="d-flex justify-content-center align-items-center">
+									<h1 class="mb-0 mr-2 text-danger font-weight-normal">{{date}}</h1>
+									<div>
+									  <p class="font-weight-bold mb-0 text-dark">{{month}}</p>
+									  <p class="mb-0">{{year}}</p>
+									</div>
+								  </div>
+								</div>
+								<div class="col-sm-8 pl-3">
+								  <p class="text-dark font-weight-bold mb-0">{{event}}</p>
+								  <p class="mb-0">{{description}}</p>
+								</div>
+							  </div>
+							</div>
+							{{/events}}
+			  </script><script type=text/template id=menu-template>
+			{{#categories}}
+			<div class="col-lg-6 menu-wrap">
+				<div class="heading-menu">
+					<h3 class="text-center mb-5">{{name}}</h3>
+				</div>
+				{{#items}}
+				<div class="menus d-flex align-items-center">
+
+						<div class="text-wrap">
+							<div class="row align-items-start">
+								<div class="col-8">
+									{{^button}}
+								<h4>{{name}}</h4>
+
+									{{/button}}
+							</div>
+							<div class="col-4">
+								{{ ^button}}
+								<h4 class="text-muted menu-price">{{price}}</h4>
+								{{/button}}
+								{{#button}}
+						<div class="btn btn-lg btn-info menuButton menu-price pull-right">
+							{{name}}
+						</div>
+					{{/button}}
+							</div>
+						</div>
+						<p>{{description}}</p>
+
+					</div>
+				</div>
+				{{/items}}
+			</div>
+			{{/categories}}
+			</script><script type=text/template id=drink-template>
+				{{#categories}}
+				<div class="col-lg-12 menu-wrap drinksContainer">
+					<div class="heading-menu">
+						<h3 class="text-center mb-5">{{name}}</h3>
+					</div>
+					{{#items}}
+					<div class="menus d-flex align-items-center">
+	
+							<div class="text-wrap">
+								<div class="row align-items-start">
+									<div class="col-8">
+										{{^button}}
+									<h4>{{name}}</h4>
+	
+										{{/button}}
+								</div>
+								<div class="col-4">
+									{{ ^button}}
+									<h4 class="text-muted menu-price">{{price}}</h4>
+									{{/button}}
+									{{#button}}
+							<div class="btn btn-lg btn-info menuButton menu-price pull-right">
+								{{name}}
+							</div>
+						{{/button}}
+								</div>
+							</div>
+							<p>{{description}}</p>
+	
+						</div>
+					</div>
+					{{/items}}
+				</div>
+				{{/categories}}
+				</script></footer></div></div><link rel=stylesheet href=https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css integrity=sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN crossorigin=anonymous><script src=https://thecozykitchen.net/js/jquery.min.js></script><script src=https://thecozykitchen.net/js/moment.min.js></script><script src=https://thecozykitchen.net/vendor/bootstrap/popper.min.js></script><script src=https://thecozykitchen.net/vendor/bootstrap/bootstrap.min.js></script><script src=https://thecozykitchen.net/vendor/select2/select2.min.js></script><script src=https://thecozykitchen.net/vendor/owlcarousel/owl.carousel.min.js></script><script src=https://thecozykitchen.net/js/featherlight.min.js></script><script src=https://thecozykitchen.net/vendor/stellar/jquery.stellar.js type=text/javascript></script><script src=https://thecozykitchen.net/js/tempusdominus-bootstrap-4.min.js></script><script src=https://cdnjs.cloudflare.com/ajax/libs/mustache.js/4.1.0/mustache.min.js></script><script src=https://thecozykitchen.net/js/gallery.js></script><script src=https://thecozykitchen.net/js/Menu.js></script><script src=https://thecozykitchen.net/js/Events.js></script><script async defer data-website-id=f4466c7c-f8fd-44be-b02e-8abfd0d82820 src=https://stats.cyberalsolutions.com/umami.js></script><script type=text/javascript></script></body></html>
