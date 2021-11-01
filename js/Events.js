@@ -2,33 +2,18 @@ var events = [
     
     {
         date: "1",
-        month: "OCT",
+        month: "NOV",
         year: "2021",
-        event: "All Month Long Oktoberfest Specials",
-        description: "",
+        event: "All Month Long",
+        description: "Pumpkin Spiced Waffles, Bacon Bourbon Turkey Burger, and Apple Spiced BonBons",
     },
     {
-        date: "15",
-        month: "OCT",
+        date: "3",
+        month: "NOV",
         year: "2021",
-        event: "1 Year Anniversary of Opening Specials",
+        event: "First Friday Dinner reservation deadline",
         description: "",
-    },
-    {
-        date: "16",
-        month: "OCT",
-        year: "2021",
-        event: "1 Year Anniversary of Opening Specials",
-        description: "",
-    },
-    {
-        date: "17",
-        month: "OCT",
-        year: "2021",
-        event: "1 Year Anniversary of Opening",
-        description: "",
-    },
-    {
+    },{
         date: "3",
         month: "NOV",
         year: "2021",
@@ -39,7 +24,57 @@ var events = [
         date: "5",
         month: "NOV",
         year: "2021",
+        event: "First Friday Pop up Shop",
+        description: "",
+    },
+    
+    {
+        date: "5",
+        month: "NOV",
+        year: "2021",
         event: "Prix Fixe Dinner",
+        description: "",
+    }
+    {
+        date: "20",
+        month: "NOV",
+        year: "2021",
+        event: "Thanksgiving Meals Order Deadline",
+        description: "",
+    },
+    {
+        date: "24",
+        month: "NOV",
+        year: "2021",
+        event: "Thanksgiving Meals Pickup",
+        description: "",
+    },
+    {
+        date: "25",
+        month: "NOV",
+        year: "2021",
+        event: "Closed for Thanksgiving",
+        description: "",
+    },
+    {
+        date: "26",
+        month: "NOV",
+        year: "2021",
+        event: "Closed for Thanksgiving",
+        description: "",
+    },
+    {
+        date: "27",
+        month: "NOV",
+        year: "2021",
+        event: "Closed for Thanksgiving",
+        description: "",
+    },
+    {
+        date: "28",
+        month: "NOV",
+        year: "2021",
+        event: "Closed for Thanksgiving",
         description: "",
     }
     
