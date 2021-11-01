@@ -27,14 +27,13 @@ var events = [
         event: "First Friday Pop up Shop",
         description: "",
     },
-    
     {
         date: "5",
         month: "NOV",
         year: "2021",
         event: "Prix Fixe Dinner",
         description: "",
-    }
+    },
     {
         date: "20",
         month: "NOV",
