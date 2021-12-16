@@ -5,11 +5,11 @@ var Breakfast = [
                 name: 'Breakfast Burrito',
                 description: 'Bacon, Egg, Potatoes, and Cheese in a Large Tortilla',
                 additional: 'Chorizo add $2.00',
-                price: '8.00'
+                price: '8.50'
             },
             {
-                name: 'Blueberry Muffin French Toast',
-                description: 'Topped with Butter and Maple Syrup',
+                name: 'Breakfast Grilled Cheese',
+                description: 'Bacon, Ham, Fried Egg, Cheaddar on Sourdough',
                 additional: '',
                 price: '9.50'
             },
@@ -23,20 +23,29 @@ var Breakfast = [
                 description: '3 Egg Omelete with Choice of 3 Fillings',
                 additional: 'Cheese, Bacon,Sausage, Ham, Chicken, Caramelized Onions, Tomatoes, Peppers, Spinach (each additional +$0.50)',
                 price: '9.50'
-            }, {
+
+            }, 
+            {
+                name: 'Blueberry Muffin French Toast',
+                description: 'Topped with Butter and Maple Syrup',
+                additional: '',
+                price: '9.50'
+            }, 
+            {
+                name: 'Cozy Benedict',
+                description: 'Sourdouch Bread topped with Ham, Poached Egg, and Hollandaise Sauce',
+                additional: '',
+                price: '9.00'
+            },
+            {
                 name: 'Buttermilk Waffles',
                 description: '2 Classic Buttermilk Waffles with Butter and Maple Syrup. Choice of 2 sides',
-                additional: '',
+                additional: 'Apple Cinnamon Add $1, Cranberry Orange add $1',
                 price: '9.00'
-            }, {
-                name: 'Breakfast Grilled Cheese',
-                description: 'Bacon, Ham, Fried Egg, Cheddar on Sourdough. Choice of 2 sides.',
-                additional: '',
-                price: '9.00'
-            }, {
+            },  {
                 name: 'Avocado Toast',
                 description: 'Wheat Toast topped with Smashed Avocado, 2 Poached Eggs, Tomato, and Everything Bagel Seasoning. Choice of 2 sides.',
-                additional: '',
+                additional: 'Fiesta Style: Salsa and Microgreens add $1, Tuscan Style: Provolone, Basil Oil on Garlic Bread',
                 price: '9.50'
             }
 
@@ -128,6 +137,12 @@ var SmallBites = [{
         description: 'Flour Tortillas filled with Roasted Turkey and Stuffing. Fried and served with Spiced Cranberry Sauce',
         additional: '',
         price: '9.25'
+    },
+    {
+        name: 'Breakfast Flautas',
+        description: 'Fried Tortilla stuffed with Bacon, Sausage, Cheese, and Potatoes. Served with Salsa.',
+        additional: '',
+        price: '9.00'
     }
 
     ]
@@ -165,25 +180,33 @@ var Lunch = [{
         name: 'B.B.L.T.',
         description: 'Bacon, more Bacon, Lettuce, and Tomato ',
         additional: 'Substitute Fried Green Tomato add $2 Fried Egg add $1',
-        price: '8.50'
+        price: '9.00'
     },
     {
         name: 'Turkey-Cran Sandwich',
         description: 'Roasted Turkey, Swiss, Lettuce, Tomato, Cranberry-Sage Aioli on Garlic Butter Toasted Sourdough',
         additional: '',
-        price: '9.50'
+        price: '10.00'
     },
     {
-        name: 'Country Chicken Salad Sandwich',
-        description: 'Chicken tossed with Dried Cranberries, Apples, and Celery. Topped with Lettuce and Tomato on a Croissant.',
+        name: 'Roast Beef and Cheedar',
+        description: 'Sliced Beef, Cheddar, Lettuce, Tomato, and a mild Horseradish Aioli',
+        additional: '',
+        price: '9.50'
+    },
+    
+    {
+        name: 'New York Pastrami',
+        description: 'Hot Pastrami, Swiss, and Spicy Mustard on Rye',
         additional: '',
         price: '10.25'
     },
+    
     {
-        name: 'Chicken and Waffle Sandwich ',
-        description: 'Savory Cheddar-Sage Waffles filled with a Spiced Honey Glazed Chicken Cutlet, and Southern Slaw',
+        name: 'Winter Waffle Sandwich',
+        description: 'Fried Chicken Cutlet, Ham, Swiss and Honey Mustard Glaze between 2 waffles.',
         additional: '',
-        price: '11.25'
+        price: '11.75'
     }, {
         name: 'Harvest Sandwich',
         description: 'Fried Zucchini, Microgreens, Red Onion, Tomato, Lettuce, and a Roasted Red Pepper Cream Cheese on Wheat',
@@ -199,31 +222,34 @@ var Lunch = [{
 
 var lunch2 = [{
     name: '', items: [{
-        name: 'New York Pastrami',
-        description: 'Hot Pastrami, Swiss, and Spicy Mustard on Rye',
+        name: 'Classic French Dip',
+        description: 'Sliced  Beef and Carmelized Onions, on French Bread with Au Ju Dipping Sauce.',
         additional: '',
-        price: '10.50'
+        price: '10.00'
+    },{
+        name: 'Ultimate Cozy Dip',
+        description: 'Roast Beef, Pastrami, Carmelized Onions, And Provolone on Toasted Garlic Bread with Au Ju Dipping Sauce.',
+        additional: '',
+        price: '12.00'
     },
     {
         name: 'Patty Melt',
-        description: '1/2lb Beef Patty topped with Caramelized Onions, Swiss Cheese and Thousand Island on toasted Rye Bread',
+        description: '1/2lb Beef Patty topped with Caramelized Onions, Swiss Cheese, and Thousand Island on Rye Bread',
+        additional: '',
+        price: ''
+    },{
+        name: 'Classic Cheese Burger',
+        description: '1/2 lb Beef Patty, Cheddar Cheese, Lettuce, Tomato, Red Onion, Pickles, and Thousand Island ',
         additional: '',
         price: '11.25'
-    },
-    {
-        name: 'Classic Cheeseburger',
-        description: '1/2lb Beef Patty, Cheddar Cheese, Lettuce, Tomato, Red Onion, Pickles and Thousand Island',
-        additional: '',
-        price: '11.25'
-    },
-    {
+    },{
         name: 'The Cozy Bistro Burger',
-        description: '1/2lb Beef Patty, Aged White Cheddar, Brown Sugar Peppered Bacon, Avocado, Lettuce, and a Black Pepper Aioli',
+        description: '1/2lb Beef Patty, White Cheddar, Brown Sugar Peppered Bacon, Avocado, Lettuce, and a Black Pepper Aioli',
         additional: '',
         price: '12.00'
-    }, {
-        name: 'Pastrami Burger',
-        description: '1/2lb Beef Patty, Hot Pastrami, Swiss, Spicy Mustard, and Southern Slaw',
+    },{
+        name: 'Bonfire Burger',
+        description: '1/2lb Beef Patty, Bonfire Brussels, and White Cheddar',
         additional: '',
         price: '13.50'
     }
