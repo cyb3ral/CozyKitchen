@@ -1,5 +1,5 @@
 $(document).ready(function () {
-    var imgCount = 3
+    var imgCount = 6
     var fileExt = ".jpg";
     var teamcardparent = $('.team-card').first().parent().parent()
 
