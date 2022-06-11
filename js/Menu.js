@@ -129,7 +129,7 @@ var SmallBites = [{
         name: 'NY Deli Rolls',
         description: 'Fried Egg Rolls filled with Pastrami, Swiss, and Pickles. Served with Honey Mustard',
         additional: '',
-        price: '9.29'
+        price: '9.49'
     }
 
 
@@ -174,12 +174,7 @@ var Soups = [{
 
 
 var Lunch = [{
-    name: '', items: [{
-        name: 'B.B.L.T.',
-        description: 'Bacon, more Bacon, Lettuce, and Tomato ',
-        additional: 'Substitute Fried Green Tomato add $2 Fried Egg add $1',
-        price: '9.00'
-    },
+    name: '', items: [
     {
         name: 'B.B.L.T.',
         description: 'Bacon, more Bacon, Lettuce, and Tomato',
@@ -246,7 +241,7 @@ var lunch2 = [{
             name: 'The Cozy Bistro Burger',
             description: '1/2 lb Beef Patty, White Cheddar, Brown Sugar Peppered Bacon, Avocado, Lettuce, and a Black Pepper Aioli',
             additional: '',
-            price: '11.29'
+            price: '11.99'
         },
         {
             name: 'The Cuban',
